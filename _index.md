@@ -1,0 +1,24 @@
+25 Apr Thu -- exam #1
+23 May Thu -- exam #2
+11 Jun Tue -- final -- 19:30-21:20
+
+Digital Devices
+ - [Tri-State Buffer](tri-state-buffer.md)
+ - [Multiplexer](multiplexer.md)
+ - [Decoder (demultiplexer)](decoder.md)
+
+
+Etc
+ - [Acronyms](_acronyms.md)
+ - [Analysis of Counter](counter-analysis.md)
+ - [Flip Flop](flip-flop.md)
+ - [Latch](latch.md)
+ - [Karnaugh Map](karnaugh-map.md)
+ - [Combinational Logic](combinational-logic.md)
+ - [Sequential Logic](sequential-logic.md)
+ - [Timing](timing.md)
+ - [TODO](_todo.md)
+
+ - [Mealy](mealy.md)
+ - [Moore](moore.md)
+ - [Mealy vs Moore](mealy-vs-moore.md)
