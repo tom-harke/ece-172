@@ -6,18 +6,22 @@ There are 3 states
  - Z        -- high impedence
 
 Symbol:
+```
   A ─▷─ Y
      │
      C
+```
 
 Truth Table
 
+```
   C A │ Y
   ────┼──
   0 0 │ Z ⌉ Y = Z
   0 1 │ Z ⌋ effectively disconnected
   1 0 │ 0 ⌉ Y = A
   1 1 │ 1 ⌋ effectively an ordinary [buffer](buffer.md)
+```
 
 
 Applications
