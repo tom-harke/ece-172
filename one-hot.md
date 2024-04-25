@@ -7,6 +7,10 @@ Summary:
     - [+] design process is trivial
     - [-] uses a lot of FFs
 
+Useful if
+ - state space is small
+ - will be on an FPGA like the [PAL](PAL.md) whose layout supports it
+
 ## Design
 
  - Use one FF per state
@@ -35,6 +39,8 @@ For each state, look at the inward transitions
       A -0-> K
       C -1-> K
 
+Exactly A and K have output 1, so the output is the `or` of the 2.
+
 ```
 letreg
   A = or [and [A,N], and [C,N'], and [K,N']]
@@ -47,7 +53,7 @@ in
 ```
 
 ## In General
-(
+
 Assign registers
  - one for each state
  - for a given state S,
@@ -57,4 +63,4 @@ Assign registers
     - create an `or` for state S
       - each `and` claus from the previous step is an input
       - the output feeds into the FF
-)
+ - the output logic is the `or` of the (`Q` of the registers of the) states whose output is 1

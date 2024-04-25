@@ -57,9 +57,24 @@
        - circuit correctness
 
 23 Apr Tue
-    - [mealy](mealy.md)
-       - circuit design
-       - circuit correctness
-    - [One-Hot Encoding](one-hot.md)
+ - [mealy](mealy.md)
+    - circuit design
+    - circuit correctness
+ - [One-Hot Encoding](one-hot.md)
 
-Etc
+25 Apr Thu
+ - midterm #1
+
+30 Apr Tue
+ - cancelled due to protests
+
+02 May Thu
+ - cancelled due to protests
+
+07 May Tue
+ - [packaging](packaging.md)
+ - [memory](memory.md)
+
+09 May Thu
+ - ...
+

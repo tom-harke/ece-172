@@ -11,6 +11,8 @@ hv ┼ block
 dl ┐ block
 DE ∆
 uT △
+</ 〈
+/> 〉
 
 linux tools
   xournal

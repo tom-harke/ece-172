@@ -1,9 +1,19 @@
+# Karnaugh Maps
 
 
-Example
-  We can simplify:
+Why?
+ - simplest equivalent expression
+ - easy to perform
+    - equational reasoning isn't always obvious
+ - result is in normal form (sum-of-products)
+    - some FPGAs such as the [PAL](PAL.md) expect this form
+
+## Example
+
+We can simplify:
 	AB(not C) + ABC + (not A)BC + AC
-  Plot:
+
+Plot:
      A 0  0  1  1
     ╲B 0  1  1  0
     C┌──┬──┬──┬──┐
@@ -11,7 +21,9 @@ Example
      ├──┼──┼──┼──┤
     1│ ⁴│1⁵│1⁷│1⁶│
      └──┴──┴──┴──┘
-  Find factors (n-dimensional blocks, with 2ⁿ cells):
+
+Find factors (maximal n-dimensional blocks, with 2ⁿ cells):
+
      A 0  0  1  1
     ╲B 0  1  1  0
     C┌──┬──┬──┬──┐
@@ -19,6 +31,7 @@ Example
      ├──┼──┼██┼──┤
     1│  │  │██│  │
      └──┴──┴──┴──┘
+
      A 0  0  1  1
     ╲B 0  1  1  0
     C┌──┬──┬──┬──┐
@@ -26,6 +39,7 @@ Example
      ├──┼──┼──┼──┤
     1│  │█████│  │
      └──┴──┴──┴──┘
+
      A 0  0  1  1
     ╲B 0  1  1  0
     C┌──┬──┬──┬──┐
@@ -33,9 +47,10 @@ Example
      ├──┼──┼──┼──┤
     1│  │  │█████│
      └──┴──┴──┴──┘
-  Solution:
+Solution:
     AB+BC+AC
 
+## Commentary
 
 Keep in mind
  - factors can wrap around bottom-to-top or right-to-left (or both)
