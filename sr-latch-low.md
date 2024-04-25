@@ -8,11 +8,14 @@ Comparison to the [active high](sr-latch.md) SR latch
  - this is a better basis for SR latch [with enable](sr-latch-enabled.md) than [active high](sr-latch.md) one
 
 Design
+```
       ┌─────┐
   S ──│two  │── Q
       │nand │
   R ──│gates│── Q'
       └─────┘
+```
+```
         ┌────┐
   S ────│nand│
       ┌─│    │─┬─ Q
@@ -24,15 +27,18 @@ Design
       └─│nand│─┴─ Q'
   R ────│    │
         └────┘
+```
 
 Truth Table
 
+```
   S R │ Q Q'
   ────┼──────────
   0 0 │ (invalid)
   0 1 │ 1 0
   1 0 │ 0 1
   1 1 │ no change
+```
 
 
 ## Pseudocode
