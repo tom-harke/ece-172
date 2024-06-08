@@ -5,6 +5,7 @@ aka 'mux'
 The inverse is a [Decoder (demultiplexer)](decoder.md)
     
 Eg 2x1 mux
+```
   Symbol
        │╲
     A ─│0│
@@ -13,6 +14,7 @@ Eg 2x1 mux
        │╱
         │
         S
+```
 
   Equations
      Y=A when S=0
@@ -21,6 +23,7 @@ Eg 2x1 mux
 Eg 4x1 mux
   Symbol
 
+```
        │╲
        │ ╲
     A ─│  │
@@ -35,6 +38,7 @@ Eg 4x1 mux
         ││
         SS
         12
+```
 
 In general, a 2ⁿ mux has n select pins
 

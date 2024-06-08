@@ -14,6 +14,7 @@ We can simplify:
 	AB(not C) + ABC + (not A)BC + AC
 
 Plot:
+```
      A 0  0  1  1
     ╲B 0  1  1  0
     C┌──┬──┬──┬──┐
@@ -21,9 +22,11 @@ Plot:
      ├──┼──┼──┼──┤
     1│ ⁴│1⁵│1⁷│1⁶│
      └──┴──┴──┴──┘
+```
 
 Find factors (maximal n-dimensional blocks, with 2ⁿ cells):
 
+```
      A 0  0  1  1
     ╲B 0  1  1  0
     C┌──┬──┬──┬──┐
@@ -31,7 +34,9 @@ Find factors (maximal n-dimensional blocks, with 2ⁿ cells):
      ├──┼──┼██┼──┤
     1│  │  │██│  │
      └──┴──┴──┴──┘
+```
 
+```
      A 0  0  1  1
     ╲B 0  1  1  0
     C┌──┬──┬──┬──┐
@@ -39,7 +44,9 @@ Find factors (maximal n-dimensional blocks, with 2ⁿ cells):
      ├──┼──┼──┼──┤
     1│  │█████│  │
      └──┴──┴──┴──┘
+```
 
+```
      A 0  0  1  1
     ╲B 0  1  1  0
     C┌──┬──┬──┬──┐
@@ -47,6 +54,7 @@ Find factors (maximal n-dimensional blocks, with 2ⁿ cells):
      ├──┼──┼──┼──┤
     1│  │  │█████│
      └──┴──┴──┴──┘
+```
 Solution:
     AB+BC+AC
 

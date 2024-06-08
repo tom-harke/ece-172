@@ -1,4 +1,31 @@
-print data sheet for lab memory chip
-read FPGA data sheet, looking for
+## Due Soon
+
+ - HW
+ - Lab w/ LSBR
+
+## Before Exam
+
+ - fill out acronyms
+ - download any pdfs newly posted to canvas 
+
+## After Class
+graphics:
+ - want to render circuits
+ - examples
+    - how to integrate metapost with github
+       https://github.com/jennigorham/metapost-examples
+    - how to code a component library
+       https://ctan.org/tex-archive/graphics/metapost/contrib/macros/makecirc
+       https://ctan.org/pkg/makecirc
+    - 
+       https://zyedidia.github.io/other/circuit_macros.pdf
+
+Extracurricular: find out more about CMOS
+ - [KNOWN] CMOS gates (and,or,...)
+ - Tri-state buffer
+ - D flip flop
+    - in particular, how to make it trigger on raising clock edge
+
+
  - cool design idioms
  - 

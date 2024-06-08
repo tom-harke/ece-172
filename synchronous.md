@@ -1,6 +1,6 @@
 
 Here's the typical design of a synchronous circuit
-
+```
              l    ┌─────────────┐    k
   inputs ────/───>│combinational│────/───> outputs
                   │    logic    │
@@ -14,6 +14,7 @@ Here's the typical design of a synchronous circuit
                      │ (FFs) │
   clock ─────────────│>      │
                      └───────┘
+```
 
 
 ```

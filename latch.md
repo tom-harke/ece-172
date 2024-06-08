@@ -1,9 +1,12 @@
 # Latch
 
  - contrast of latch to [flip flop](flip-flop.md)
-   latch            │ flip flop
-   ─────────────────┼────────────────
-   level-triggered  │ edge-triggered
+
+```
+latch            │ flip flop
+─────────────────┼────────────────
+level-triggered  │ edge-triggered
+```
 
 ## SR-latch
 

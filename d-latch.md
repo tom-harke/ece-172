@@ -8,6 +8,7 @@ AKA transparent latch
 
 
 ## Diagram
+```
              ┌────┐   ┌────┐
  D ─┬────────│nand│───│nand│
     │      ┌─│    │ ┌─│    │─┬─ Q
@@ -19,6 +20,7 @@ AKA transparent latch
     │ ┌───┐└─│nand│ └─│nand│─┴─ Q'
     └─│not│──│    │───│    │
       └───┘  └────┘   └────┘
+```
 
 ## Example Timing Diagram
 

@@ -5,6 +5,7 @@ transition table(?)
     - I choose groups of 4 so that Q₁Q₀ use a Gray code, for easy copying to Karnaugh map
 
 
+```
          present  │ next
          Q₂ Q₁ Q₀ │ Q₂ Q₁ Q₀
        ┌──────────┼─────────┐
@@ -18,11 +19,13 @@ transition table(?)
    (7) │ 1  1  1  │ x  x  x │
    (6) │ 1  1  0  │ x  x  x │
        └──────────┴─────────┘
+```
 
 
  - D₂ = Q₁
    Since:
 
+```
        ╲Q₂ 0  1
      Q₁Q₀┌──┬──┐
      0 0 │x⁰│0⁴│
@@ -33,10 +36,12 @@ transition table(?)
          ├──┼──┤
      1 0 │1²│x⁶│
          └──┴──┘
+```
 
  - D₁ = (not Q₁)Q₀
    Since:
 
+```
        ╲Q₂ 0  1
      Q₁Q₀┌──┬──┐
      0 0 │x⁰│0⁴│
@@ -47,11 +52,13 @@ transition table(?)
          ├──┼──┤
      1 0 │0²│x⁶│
          └──┴──┘
+```
 
 
  - D₀ = (not Q₂)Q₀ + Q₂(not Q₀)
    Since:
 
+```
        ╲Q₂ 0  1
      Q₁Q₀┌──┬──┐
      0 0 │x⁰│1⁴│
@@ -62,6 +69,7 @@ transition table(?)
          ├──┼──┤
      1 0 │0²│x⁶│
          └──┴──┘
+```
 
 
 
@@ -72,6 +80,7 @@ TODO: Verify with a timing diagram
 
 
 template
+```
    ╲Q₂ 0  1
  Q₁Q₀┌──┬──┐
  0 0 │ ⁰│ ⁴│
@@ -82,5 +91,6 @@ template
      ├──┼──┤
  1 0 │ ²│ ⁶│
      └──┴──┘
+```
 
 

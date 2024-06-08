@@ -1,0 +1,11 @@
+
+ - It is a 16-state Moore machine
+ - There are 2 instances of the same 7-state sub machine
+    - one for Data
+    - one for Instruction
+ - Initialization is easy
+    - set TMS to 1 and pulse the clock 5 times
+    - clever design: if you erase the 0 edges, what's left is
+       - (almost) a tree of depth 5
+       - the exception is that the root has a self edge
+       - all nodes are connected to the root

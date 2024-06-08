@@ -3,12 +3,14 @@
 ## Formalism (wrong)
 He says:
   completely specified by a 5-tuple
+```
      {S,S₀,I,O,T}
       │ │  │ │ └─ state transitions T ⊆ SxS (edges)
       │ │  │ └─── output alphabet
       │ │  └───── input alphabet
       │ └──────── initial state
       └────────── set of states
+```
 
 TODO: This is incomplete, as we also need
   - data

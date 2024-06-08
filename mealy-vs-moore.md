@@ -20,6 +20,7 @@ TODO: do they need to be clocked?
 
 ## Differences
 
+```
                         │ Mealy             │ Moore
 ────────────────────────┼───────────────────┼────────────────
 output is a function of │ state+input       │ state only
@@ -27,5 +28,6 @@ output is marked on     │ edges             │ vertices
 output registers needed?│ yes               │ no
 output happens wrt input│ 1 clock later     │ same clock
 output truth table      │ 1 col/input state │ one column
+```
 
 for the same functionality, the number of states of a Mealy is ≤ that for a Moore

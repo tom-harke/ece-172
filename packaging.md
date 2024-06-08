@@ -14,6 +14,7 @@
 == PLCC: plastic leaded chip carrier
    It is J-leaded where leads bend in, under package (opposite of gull wing)
 == PGA (BGA): pin (ball) grid array
+```
    ┌─────────┐
    │•••••••••│
    │•••••••••│
@@ -25,6 +26,7 @@
    │•••••••••│
    │•••••••••│
    └─────────┘
+```
   - PGA vs BGA: long pins vs stubby solder balls on pad
   - pins are desribed via coordinates
     - letters for rows (except I and O which are easy to misread as 1 and 0)

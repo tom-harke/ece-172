@@ -78,3 +78,39 @@
 09 May Thu
  - ...
 
+14 May Tue
+16 May Thu
+
+21 May Tue
+ - configuration of [FPGAs](FPGA.md)
+    - [JTAG](JTAG.md)
+    - TAP
+    - SPI flash memory
+ - specification
+ - testing
+    - stuck-at-fault
+    - hazards
+ - design reviews
+
+23 May Thu
+ - midterm
+
+28 May Tue
+ - pseudo-random sequences
+    - linear feedback shift register
+    - generating polynomial
+ - data compression
+    - signature register
+
+30 May Thu
+ - controllability vs observability
+ - Various [scan](scan.md) techniques
+    - [boundary scan](boundary-scan.md)
+       - to test chip
+       - to test circuit board
+    - [scan flip flops](scan-flip-flops.md)
+ - [design for test](design-for-test.md)
+ - bed-of-nails testing
+    - test fixture
+
+Unsorted

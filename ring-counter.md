@@ -3,6 +3,7 @@
 Circuit
   - A [shift register](shift-register.md) with a loop back
 
+```
           ┌─────────────────────────────────┐
           │ ┌─────┐     ┌─────┐     ┌─────┐ │
      data └─│D₀ Q₀│─────│D₁ Q₁│─...─│D  Q │─┘
@@ -10,6 +11,7 @@ Circuit
           ┌─│> 'Q₀│   ┌─│> 'Q₁│   ┌─│> 'Q │
           │ └─────┘   │ └─────┘   │ └─────┘
      clk ─┴───────────┴─────────..┘
+```
 
 Initialization
  - pick i

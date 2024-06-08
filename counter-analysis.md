@@ -3,6 +3,7 @@ How To Analyze Counters
 Example
 
 Consider the 2 bit counter
+```
 		LSB               MSB
       ┌─────┐           ┌─────┐
   ┌───│D₀ Q₀│─── xor ───│D₁ Q₁│─┐
@@ -10,6 +11,7 @@ Consider the 2 bit counter
   │   │>  Q₀│─┐   │     │>  Q₁│ │
   │   └─────┘ │   │     └─────┘ │
   └───────────┘   └─────────────┘
+```
 
   where
    - some edges are omitted for clarity

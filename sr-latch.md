@@ -5,23 +5,27 @@ S = set
 
 ## Truth Table
 
+```
   R S │ Q Q'
   ────┼──────────
   0 0 │ no change
   0 1 │ 1 0
   1 0 │ 0 1
   1 1 │ (invalid)
+```
 
 ## Design:
   - 2 nor gates, with feedback
     - see pdf image
 
 ## Interface:
+```
       ┌─────┐
   R ──│two  │── Q
       │nor  │
   S ──│gates│── Q'
       └─────┘
+```
 
 ## Pseudocode
 

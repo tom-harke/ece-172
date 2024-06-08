@@ -1,7 +1,9 @@
 # Buffer
 
 Symbol:
+```
   A ─▷─ Y
+```
 
   Y = A
 

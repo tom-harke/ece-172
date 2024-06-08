@@ -8,6 +8,7 @@ TODO:   - same example, slightly different outputs; one rolls up tight, the othe
 karnaugh-map.md
 
 ## Example
+```
       │ next│out
       │ 0 1 │
     ──┼─────┼───
@@ -17,6 +18,7 @@ karnaugh-map.md
     D │ F A │ 0
     E │ B C │ 1
     F │ A F │ 0
+```
 
 Initialize table
  - use only bottom-left half of table
@@ -27,6 +29,7 @@ Initialize table
     - one from column label
 
 
+```
     A │ ╲
       │  ╲
       ├───┐
@@ -46,9 +49,11 @@ Initialize table
       │AF0│AF0│AF0│AF0│AF0│  ╲
       └───┴───┴───┴───┴───┴───
         A   B   C   C   E   F
+```
 
 Cross out any cell in which the outputs differ
 
+```
     A │ ╲
       │  ╲
       ├───┐
@@ -68,10 +73,12 @@ Cross out any cell in which the outputs differ
       │███│███│AF0│AF0│███│  ╲
       └───┴───┴───┴───┴───┴───
         A   B   C   C   E   F
+```
 
 After this outputs aren't used.
 Also note that the A row and F column aren't used.
 
+```
       ┌───┐
     B │BE │
       │CD │
@@ -89,27 +96,33 @@ Also note that the A row and F column aren't used.
       │███│███│AF │AF │███│
       └───┴───┴───┴───┴───┘
         A   B   C   D   E
+```
 
 Repeat until no changes occur:
  - for each cell that is not crossed out
  - examine both vertical pairs of next states
     - for example, with cell
+```
       ┌──┐
       │BE│
       │CD│
       └──┘
+```
       the vertical pairs are {B,C} and {E,D}
  - if either of them corresponds to a cell that has been crossed out, then cross this cell out too
     - eg examining
+```
       ┌──┐
       │BE│
       │CD│
       └──┘
+```
       we see BC, but the cell at (row C,column B) was previously crossed out,
       so cross this one out as well
 
 So, for this example
 
+```
       ┌───┐
     B │███│
       │███│
@@ -127,6 +140,7 @@ So, for this example
       │███│███│AF │███│███│
       └───┴───┴───┴───┴───┘
         A   B   C   D   E
+```
 
 The cell (C,F) remains, so the two are equivalent.
 
@@ -138,6 +152,7 @@ Pick one of {C,F} to elimate from the table
     - delete the F row
     - substitute all remaining occurrences of F with C
 
+```
       │ next│out
       │ 0 1 │
     ──┼─────┼───
@@ -146,6 +161,7 @@ Pick one of {C,F} to elimate from the table
     C │ A C │ 0
     D │ C A │ 0
     E │ B C │ 1
+```
 
 ## Etc
 

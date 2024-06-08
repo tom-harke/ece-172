@@ -7,6 +7,7 @@ Circuit
      - serial-in is used with o₀,o₁,o₂
      - serial-out is used with i₀,i₁,i₂
 
+```
            i₀             i₁             i₂
            │              │              │
            └│0╲  ┌─────┐  └│╲  ┌─────┐   └│╲  ┌─────┐  
@@ -16,6 +17,7 @@ Circuit
               │  └─────┘ o₀ │  └─────┘ o₁  │  └─────┘ o₂
               │             │              │          
       mode ───┴─────────────┴──────────────┘
+```
 
     - Serial-to-parallel
        - need stream to be synchronized with the clock

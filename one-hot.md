@@ -21,11 +21,13 @@ Useful if
 
 Consider the Moore FSM:
 
+```
     │ 0 1 │
   ──┼─────┼───
   A │ K A │ 1
   C │ A K │ 0
   K │ A C │ 1  <- initial
+```
 
 For each state, look at the inward transitions
 
